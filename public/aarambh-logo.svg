@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="100%" height="100%">
+  <defs>
+    <!-- Clip path to keep letter A white inside circle -->
+    <clipPath id="circleMask">
+      <circle cx="95" cy="95" r="54" />
+    </clipPath>
+  </defs>
+
+  <!-- Dark charcoal circular badge -->
+  <circle cx="95" cy="95" r="54" fill="#2d2d2d" />
+
+  <!-- Letter A: Bold slanted uppercase A (White inside circle) -->
+  <!-- Left leg, crossbar, and right leg -->
+  <path d="M54 125 L80 46 L104 46 L130 125 L112 125 L106 104 L78 104 L72 125 Z M83 88 L101 88 L92 62 Z" fill="#ffffff" />
+
+  <!-- Lowercase t: Bold modern sans-serif t in dark charcoal (or crisp light on dark) -->
+  <path d="M128 50 V64 H150 V76 H128 V110 C128 116 131 118 138 118 H150 V128 C135 128 114 125 114 107 V76 H104 V64 H114 V50 Z" fill="currentColor" />
+
+  <!-- Aarambh.tech Wordmark -->
+  <text x="114" y="152" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="24" letter-spacing="-0.5" fill="currentColor">
+    Aarambh<tspan font-weight="700" fill="#38bdf8">.tech</tspan>
+  </text>
+</svg>
